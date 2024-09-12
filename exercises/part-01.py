@@ -38,7 +38,7 @@ df = pd.DataFrame(dados)
 # %%
 df.columns
 # %%
-print(f'Sumario: {df.describe}')
+print(f'Sumario: {df.describe()}')
 print(f'Média: {df['idade'].mean():.2f}')
-print(f'Último nome da coluna nome: {df['nome'].iloc[2]}')
+print(f'Último nome da coluna nome: {df['nome'].iloc[-1]}')
 # %%
