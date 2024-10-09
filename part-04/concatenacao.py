@@ -32,3 +32,6 @@ dfs
 df_consolidado = pd.concat(dfs, axis=1)
 df_consolidado
 # %%
+
+df_consolidado.to_csv('../data/ipea_consolidado.csv')
+# %%
